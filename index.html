@@ -9,33 +9,40 @@
 
 	<body>
 		<header>
-			<div class="maintitle">
-				<h1>Comments</h1>
-			</div>
-			
-			<div class="subtitle">
-				<p>A simple app that allows a user to make comments</p>
+			<div class="container">
+				<div class="maintitle">
+					<h1>Comments</h1>
+				</div>
+				
+				<div class="subtitle">
+					<p>A simple app that allows a user to make comments</p>
+				</div>
 			</div>
 
 		</header>
 
 		<main>
-			<!-- note that we use a dash here for our CSS class name tat contains multiple words, thats CSS convention -->
-			<section class="comment-input">
-				<p>Add Your Comment:</p>
-				<input type="text"><button>+</button>
-			</section>
+			<div class="container">
+				<!-- note that we use a dash here for our CSS class name tat contains multiple words, thats CSS convention -->
+				<section class="comment-input">
+					<p>Add Your Comment:</p>
+					<input type="text"><button>+</button>
+				</section>
+			
 
-			<section class="comments">
-				<p>This is the first comment!</p>
-				<p>This is the second comment!</p>
-				<p>This is the third comment!</p>
-				<p>This is the fourth comment!</p>
-			</section>
+				<section class="comments">
+					<p>This is the first comment!</p>
+					<p>This is the second comment!</p>
+					<p>This is the third comment!</p>
+					<p>This is the fourth comment!</p>
+				</section>
+			</div>
 		</main>
 
 		<footer>
-			<p>This work is released to the public domain.</p>
+			<div class="container">
+				<p>This work is released to the public domain.</p>
+			</div>
 		</footer>
 
 		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>

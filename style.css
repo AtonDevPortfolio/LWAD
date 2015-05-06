@@ -7,7 +7,7 @@ body {
 	max-width: 855px;
 }
 
-header, main, footer {
+header .container, main .container, footer .container {
 	min-width: 855px;
 	margin: auto;
 	clear: both;
