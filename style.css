@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 855px;
+}
+
+header, main, footer {
+	min-width: 855px;
+	margin: auto;
+	clear: both;
+}
+
+header h1 {
+	float: left;
+	width: 285px
+}
+
+
+
+.maintitle {
+	width: 285px;
+	float: left;
+	clear: both;
+}
+
+.subtitle {
+	width: 570px;
+	float: right;
+	clear: both;
+}
+
+.comments p:nth-child(even) {
+	background: lavender;
+}
+
+.comments p:nth-child(odd) {
+	background: gainsboro;
+}
