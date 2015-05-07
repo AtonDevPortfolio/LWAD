@@ -20,7 +20,6 @@ h1 {
 	float: left;
 }
 
-
 header p {
 	float: right;
 	width: 570px;
@@ -71,10 +70,17 @@ main {
 	margin-bottom: 10px;
 	border-radius: 5px;
 }
+
 .comments p:nth-child(even) {
 	background: lavender;
 }
 
 .comments p:nth-child(odd) {
 	background: gainsboro;
+}
+
+footer {
+	font-size: smaller;
+	margin-top: 5px;
+	clear: both;
 }
