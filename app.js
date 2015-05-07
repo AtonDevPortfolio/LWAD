@@ -8,7 +8,7 @@ var main = function () {
 // single line version, study later
 //var $new_comment = $("<p>").text($(".omment-input input").val);
 
-		$new_comment.text("comment_text");
+		$new_comment.text(comment_text);
 
 		$(".comments").append($new_comment);
 	});
