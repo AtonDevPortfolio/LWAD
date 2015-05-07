@@ -4,44 +4,36 @@
 }
 
 body {
-	max-width: 855px;
+	width: 855px;
+	margin: auto;
+	background: ivory;
+	font-size: 100%;
+	font-family: sans-serif;
+}
+
+header {
+	overflow: auto;
+	border-bottom: 1px solid darkslategray;
 }
 
 h1 {
-	font-size: xx-large;
-}
-
-h2 {
-	font-size: x-large;
-}
-
-h3 {
-	font-size: large;
-}
-
-h4 {
-	font-size: small;
-
-header .container, main .container, footer .container {
-	min-width: 855px;
-	margin: auto;
-	clear: both;
-}
-
-header h1 {
 	float: left;
-	width: 285px
 }
 
 
+header p {
+	floa: right;
+	width: 570px;
+	font-style: italic;
+	margin-top: 10px;
+}
 
-.maintitle {
+header .maintitle {
 	width: 285px;
 	float: left;
-	clear: both;
 }
 
-.subtitle {
+header .subtitle {
 	width: 570px;
 	float: right;
 	clear: both;
@@ -54,3 +46,4 @@ header h1 {
 .comments p:nth-child(odd) {
 	background: gainsboro;
 }
+
