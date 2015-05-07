@@ -2,7 +2,7 @@ var main = function () {
 	"use strict";
 
 	$(".comment-input button").on("click", function (event) {
-		console.log("Hello, Mordor,");
+		$(".comments").append("<p>This is a new comment.</p>");
 	});
 };
 
