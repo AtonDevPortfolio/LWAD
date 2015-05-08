@@ -23,6 +23,7 @@ var main = function () {
 			$(".comments").append($new_comment);
 			$(".comment-input input").val("");
 			}	
+
 		}
 			
 	});
