@@ -6,9 +6,11 @@ var main = function () {
 
 		if ($(".comment-input input").val() !== "") {
 			$new_comment = $("<p>").text($(".comment-input input").val());
+			$new_comment.hide();
 			// single line version, study later
 			//var $new_comment = $("<p>").text($(".comment-input input").val);
 			$(".comments").append($new_comment);
+			$new_comment.fadeIn();
 			$(".comment-input input").val("");
 		}
 
@@ -22,7 +24,9 @@ var main = function () {
 			//	console.log("Hello, Mordor.  This is keycode " + event.keyCode);
 			if ($(".comment-input input").val() !== "") {
 			$new_comment = $("<p>").text($(".comment-input input").val());
+			$new_comment.hide();
 			$(".comments").append($new_comment);
+			$new_comment.fadeIn();
 			$(".comment-input input").val("");
 			}	
 
