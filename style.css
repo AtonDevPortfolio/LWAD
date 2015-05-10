@@ -8,12 +8,13 @@ body {
 	margin: auto;
 	background: ivory;
 	font-size: 100%;
-	font-family: sans-serif;
+	font-family: 'Raleway',sans-serif;
 }
 
 header {
 	overflow: auto;
 	border-bottom: 1px solid darkslategray;
+	font-family: 'Ubuntu', sans
 }
 
 h1 {
@@ -77,6 +78,7 @@ main {
 }
 
 .comments p:nth-child(odd) {
+	text-decoration: bold;
 	background: gainsboro;
 }
 

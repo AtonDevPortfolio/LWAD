@@ -6,6 +6,8 @@ var main = function () {
 
 		if ($(".comment-input input").val() !== "") {
 			$new_comment = $("<p>").text($(".comment-input input").val());
+			// single line version, study later
+			//var $new_comment = $("<p>").text($(".comment-input input").val);
 			$(".comments").append($new_comment);
 			$(".comment-input input").val("");
 		}
@@ -30,6 +32,3 @@ var main = function () {
 };
 
 $(document).ready(main);
-
-// single line version, study later
-//var $new_comment = $("<p>").text($(".omment-input input").val);
